@@ -12,4 +12,12 @@ public class LoginController {
 		return "login";
 		
 	}
+	
+	@GetMapping("/accessden")
+	public String showMyADPage() {
+		
+		return "myaccessdenied";
+		
+	}
+	
 }
