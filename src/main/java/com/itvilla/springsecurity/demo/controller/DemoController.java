@@ -23,11 +23,17 @@ public class DemoController {
 		
 		return "mymanagerhomepage";
 	}
-	
+		
 	@GetMapping("/admin")
 	public String showadminHome() {
 		
 		return "myadminhomepage";
+	}
+	
+	@GetMapping("/common/dosomething")
+	public String showdosomeHome() {
+		
+		return "myuserdosomething";
 	}
 	
 }

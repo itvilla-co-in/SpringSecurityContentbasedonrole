@@ -14,6 +14,11 @@
 This page has few things that only employess can do. 
 THis should not be visible to managers and admins. 
 
+
+
+<a href="${pageContext.request.contextPath}/common/dosomething" class="text-primary" target="_blank" >usersdosomethingurl</a>
+
+
 	<form:form action="${pageContext.request.contextPath}/logout" 
 			   method="POST">
 	

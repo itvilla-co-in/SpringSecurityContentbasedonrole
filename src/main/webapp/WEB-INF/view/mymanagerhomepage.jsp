@@ -14,6 +14,8 @@
 This page has few things that only Managers can do. 
 THis should not be visible to Employess and admins. 
 
+<a href="${pageContext.request.contextPath}/common/dosomething" class="text-primary" target="_blank" >usersdosomethingurl</a>
+
 	<form:form action="${pageContext.request.contextPath}/logout" 
 			   method="POST">
 	
